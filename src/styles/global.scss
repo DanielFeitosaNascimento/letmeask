@@ -1,0 +1,31 @@
+:root {
+  --gray-100: #A8A8B3;
+  --gray-300: #737380;
+  --white: #FFFFFF;
+  --red: #EA4335;
+  --purple-t: #613cd1;
+  --background:  #f8f8f8;
+  --background-textarea: #fefefe;
+  --text: #29292e;
+  --background-aside: #835afd;
+  --header: #e2e2e2;
+  --pink: #e559f9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background);
+}
+
+body, input, select, textarea {
+  font: 400 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
