@@ -1,0 +1,35 @@
+.button {
+  width: 20rem;
+  height: 3.125rem;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  color: var(--white);
+  transition: 0.2s ease-in ;
+
+  background: var(--background-aside);
+
+  &.outlined {
+    background: var(--white);
+    color: var(--background-aside);
+    border: 1px solid var(--background-aside);
+  }
+
+  &:not(:disabled):hover {
+    background: var(--purple-t);
+  }
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+}

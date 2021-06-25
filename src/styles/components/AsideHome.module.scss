@@ -1,0 +1,29 @@
+.container {
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  padding: 7.5rem 5rem;
+
+  background: var(--background-aside);
+
+  img {
+    max-width: 18rem;
+  }
+
+  strong {
+    font: 700 2.25rem 'Poppins', Helvetica, Arial, sans-serif;
+    line-height: 2.625rem;
+    margin-top: 1rem;
+    color: var(--background)
+  }
+
+  p {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+    color: var(--background);
+  }
+}
